@@ -1,0 +1,433 @@
+#div1{
+  
+    background-image: url(https://www.boulevard-dental.com/wp-content/uploads/2021/05/service-cleaning-featured-img.jpg);
+    background-repeat: no-repeat;
+     height: 72vh;
+}
+#a1{
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    position: relative; 
+    top:30px;
+    margin-left: 12vh;
+    
+}
+#a2,#a3,#a4,#a5,#a6,#a7,#a8{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative; 
+    top:30px;
+    margin-right: 30px;
+    
+}
+#a2{
+    margin-left: 55vh;
+}
+#p1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vh;
+    margin-top: 16vh;
+   margin-left: 14vh;
+}
+#p2{
+    color: blue;
+    margin-left: 16vh;
+margin-top: 0px;}
+#p4{
+    margin-top: 8vh;
+}
+#btn1{
+    background-color:rgb(0, 61, 243);
+    font-size: 17px;
+    border: none;
+    border-radius:100px;
+    color: white;
+    height: 6.7vh;
+    width: 28vh;    
+  margin-left: 13vh;
+  margin-top: 0px;
+}
+#div2{
+    border:1px solid linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+    text-align: left;
+    width:40vh;
+    position: relative;
+ margin-top: 0px;
+}
+#div3{
+  background-color:blue;
+  border:1px solid blue;
+  text-align: left;
+  width:40vh;
+  height: 43vh;
+  position: relative;
+margin-top: 0px;
+}
+#div4{
+    background-image: linear-gradient( 135deg, #6B73FF 10%, #000DFF 100%);
+    border:1px solid linear-gradient( 135deg, #6B73FF 10%, #000DFF 100%);
+    text-align:center;
+    width: 90vh;
+    position: relative;
+  margin-top: 0px;
+      
+}
+#p3{
+  color: white;
+  font-size: 3vh;
+  margin-top: 5vh;
+  margin-left: 4vh;
+}
+#p5{
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 14vh;
+  margin-left: 4vh;
+
+}
+#p4{
+    color: white;
+    margin-left: 4vh;
+}
+#p6,#p7{
+    color: white;
+    font-size: 3vh;
+    margin-top: 5vh;
+    margin-left: 4vh;
+}
+table{
+    color:  white;
+}
+#pattern{
+    display:flex;
+    margin-left: 12vh;
+    position: relative;
+    bottom: 4vh;
+}
+#btn2{
+
+        background-color:blue;
+        font-size: 17px;
+        border: none;
+        border-radius:100px;
+        color: white;
+        height: 5vh;
+        width: 28vh;    
+      margin-left: 13vh;
+    
+}
+select,input[type="text"],input[type="email"],input[type="date"],input[type="time"],input[type="tel"]{
+    border-radius:30px;
+    border:none;
+    height:3vh;
+    width: 23vh;
+}
+.slideleft{
+   animation: slideleft 2s linear forwards;
+}
+/* @keyframes slideleft{
+    0%{
+       transform: translate(100px);
+       opacity: 0;
+    }
+    100%{
+       transform: translate(-0px);
+       opacity: 1;
+
+    }
+} */
+@keyframes slideleft{
+    0%{
+       transform: translate(100px);
+       opacity: 0;
+    }
+    100%{
+       transform: translate(0px);
+       opacity: 1;
+
+    }
+}
+#p1{
+    animation-delay: 1s;
+    opacity: 0;
+}
+#p2{
+    animation-delay: 2s;
+    opacity: 0;
+
+}
+
+#btn1{
+    animation-delay: 3s;
+    opacity: 0;
+
+}
+
+#msg{
+    background-color: #000DFF;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vh;
+animation: text 5s linear infinite;
+}
+@keyframes  text{
+    0%{
+        background-color: #00fbff;
+    }
+    25%{
+    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+
+    }
+    50%{  
+        background-color:blue;
+
+    }
+    75%{
+      background-color: rgb(33, 244, 64);
+
+    }
+    100%{
+      background-color: rgb(148, 19, 131);
+    }
+    
+}
+footer{
+    background-image: linear-gradient(to right,#00093c,#2d0b00);
+    height: 50vh;
+    width:199vh;
+    border-radius: 10vh;
+}
+#h1{
+    color: white;
+    position: absolute;
+    top: 135vh;
+    left:8vh;
+}
+#msg1{
+    color: white;
+    position: absolute;
+    top: 145vh;
+    left:8vh;
+}
+#h2{
+    color: white;
+    position: absolute;
+    top: 135vh;
+    left:65vh;
+}
+#office{
+    background-color: white;
+    height:5px;
+    border-radius: 40px;
+    width:200px;
+    position: absolute;
+    top:144vh;
+    left: 65vh;
+}
+span{
+    background-color: blue;
+    height:5px;
+    width:50px;
+    border-radius: 100vh;
+    position: absolute;
+    top:0vh;
+    animation:run 3s linear infinite;
+    
+}
+@keyframes run{
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(130px);
+    }
+    
+}
+#a{
+    color: white;
+    position: absolute;
+    left:65vh;
+    top:145vh;
+}
+#hr1{
+    width:23vh;
+    position: absolute;
+    top:159vh;
+    left:65vh;
+}
+#no{
+    color: white;
+    position: absolute;
+    top:160vh;
+    left:65vh;
+    font-weight: bold;
+    font-size: 17px;
+}
+#links{
+    background-color: white;
+    height:5px;
+    border-radius: 40px;
+    width:100px;
+    position: absolute;
+    top:144vh;
+    left: 120vh;
+}
+#inner{
+    background-color: blue;
+    height:5px;
+    width:50px;
+    border-radius: 100vh;
+    position: absolute;
+    top:0vh;
+    animation:run1 1.5s linear infinite;
+}
+@keyframes run1{
+    0%{
+    transform: translate(0%);
+    }
+    100%{
+    transform: translate(70%);
+    }
+}
+
+#h3{
+    color: white;
+    margin-left: 120vh;
+}
+
+#click{
+    color: white;
+    margin-left: 900px;
+    text-decoration: none;
+    margin-bottom: 200px;
+}
+
+#em{
+    background-color: white;
+    height:5px;
+    border-radius: 40px;
+    width:143px;
+    position: absolute;
+    top:144vh;
+    left: 154vh;
+}
+#inner1{
+    background-color: blue;
+    height:5px;
+    width:50px;
+    border-radius: 100vh;
+    position: absolute;
+    top:0vh;
+    animation:run3 1.5s linear infinite;
+}
+@keyframes run3{
+    0%{
+    transform: translate(0%);
+    }
+    100%{
+    transform: translate(150%);
+    }
+}
+#fn{
+    color:white;
+    position: absolute;
+ top: 134vh;
+ left:155vh;
+ font-weight: bold;
+    font-size: 29px;
+}
+#email{
+    color: white;
+     font-weight: bold;
+    position: absolute;
+    top: 149vh;
+    left:154vh;
+}
+#em2{
+    position: absolute;
+    top:154vh;
+    left: 150vh;
+    border:none;
+    width:30vh;
+}
+#hr2{
+    color: white;
+    width:189vh;
+    position: absolute;
+    top:173vh;
+    left:4vh;
+}
+#ff{
+    color:white;
+    text-decoration: none;
+    margin-left: 2vh;
+
+}
+#ff1{
+    color:white;
+    text-decoration: none;
+   
+}
+#ff2{
+    color:white;
+    text-decoration: none;
+}
+#ff3{
+    color:white;
+    text-decoration: none;
+}
+#an{
+    background-color: #000DFF;
+    width: 610px;
+    text-align: center;
+     position: absolute;
+ left:60vh; 
+    border-radius: 4vh;
+
+}
+
+#img1{
+    height: 5vh;
+    width: 6vh;
+    border-radius: 50px;
+
+}
+#img1:hover{
+    box-shadow: 10px 8px 10px 5px orange;
+}
+#img2{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 40px;
+    margin-left: 1vh;
+
+}
+#img3{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 40px;
+    margin-left: 1vh;
+
+}
+#img4{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 40px;
+    margin-left: 1vh;
+
+}
+#logo{
+    position: absolute;
+    top:160vh;
+    left:152vh;
+}
